@@ -35,7 +35,6 @@ contract SimpleStorage{
     //calldata,memory -> temporary variable                     storage- permanently stored variable - can be modified
 
     //we can change value in memory but not in calldata
-
     function abc(string memory _name) pure public {
         _name="Ankit";
     }
